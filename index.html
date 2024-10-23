@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RadiusCalculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<figure>
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+    <figcaption>
+        <span class="outer-radius">50</span>px 
+        - 
+        <span class="padding">25</span>px 
+        = 
+        <span class="inner-radius">25</span>px
+    </figcaption>
+</figure>
+
+<form>
+    <label>
+        Outer Border Radius
+        <input type="range" min="0" max="100" value="50" name="radius"/>
+    </label>
+    
+    <label>
+        Gap
+        <input type="range" min="0" max="50" value="25" name="padding"/>
+    </label>
+</form>
+
+<script src="main.js"></script>
+
+</body>
+</html>
